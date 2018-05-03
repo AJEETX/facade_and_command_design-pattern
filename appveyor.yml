@@ -1,0 +1,5 @@
+version: 1.0.{build}
+build:
+  parallel: true                  # enable MSBuild parallel builds
+  project: FacadeAndCommandPattern.sln      # path to Visual Studio solution or project
+  verbosity: minimal
